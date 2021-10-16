@@ -28,4 +28,13 @@ public class Tower {
     public void setRate(int rate) {
         this.rate = rate;
     }
+
+    @Override
+    public String toString() {
+        return "Tower{" +
+                "damage=" + damage +
+                ", defence=" + defence +
+                ", rate=" + rate +
+                '}';
+    }
 }
